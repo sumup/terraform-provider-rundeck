@@ -61,7 +61,7 @@ endif
 
 release:
 	go get github.com/mitchellh/gox
-	gox -output='terraform-provider-rundeck-v0.1.1-{{.OS}}-{{.Arch}}' -arch='amd64' -os='linux darwin' -verbose -ldflags "-s -w"
+	gox -output='terraform-provider-rundeck_v0.1.1_{{.OS}}_{{.Arch}}' -arch='amd64' -os='linux darwin' -verbose -ldflags "-s -w"
 
 
 
