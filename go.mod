@@ -24,7 +24,9 @@ require (
 	github.com/jmespath/go-jmespath v0.0.0-20160803190731-bd40a432e4c7
 	github.com/mitchellh/copystructure v0.0.0-20161013195342-5af94aef99f5
 	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
+	github.com/mitchellh/gox v0.4.0 // indirect
 	github.com/mitchellh/hashstructure v0.0.0-20160209213820-6b17d669fac5
+	github.com/mitchellh/iochan v1.0.0 // indirect
 	github.com/mitchellh/mapstructure v0.0.0-20170307201123-53818660ed49
 	github.com/mitchellh/reflectwalk v0.0.0-20161003174516-92573fe8d000
 	github.com/rancher/go-rancher v0.0.0-20170407040943-ec24b7f12fca

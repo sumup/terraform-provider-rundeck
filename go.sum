@@ -40,8 +40,12 @@ github.com/jmespath/go-jmespath v0.0.0-20160803190731-bd40a432e4c7/go.mod h1:Nht
 github.com/mitchellh/copystructure v0.0.0-20161013195342-5af94aef99f5 h1:zpaRAYp00glucts07iugR0W6zvhvLPp+9oR20M8ULM0=
 github.com/mitchellh/copystructure v0.0.0-20161013195342-5af94aef99f5/go.mod h1:eOsF2yLPlBBJPvD+nhl5QMTBSOBbOph6N7j/IDUw7PY=
 github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
+github.com/mitchellh/gox v0.4.0 h1:lfGJxY7ToLJQjHHwi0EX6uYBdK78egf954SQl13PQJc=
+github.com/mitchellh/gox v0.4.0/go.mod h1:Sd9lOJ0+aimLBi73mGofS1ycjY8lL3uZM3JPS42BGNg=
 github.com/mitchellh/hashstructure v0.0.0-20160209213820-6b17d669fac5 h1:h+4fp6yIoLPf/K2egDK3kvYM2zqb28gJIWWMiDzBdKM=
 github.com/mitchellh/hashstructure v0.0.0-20160209213820-6b17d669fac5/go.mod h1:QjSHrPWS+BGUVBYkbTZWEnOh3G1DutKwClXU/ABz6AQ=
+github.com/mitchellh/iochan v1.0.0 h1:C+X3KsSTLFVBr/tK1eYN/vs4rJcvsiLU338UhYPJWeY=
+github.com/mitchellh/iochan v1.0.0/go.mod h1:JwYml1nuB7xOzsp52dPpHFffvOCDupsG0QubkSMEySY=
 github.com/mitchellh/mapstructure v0.0.0-20170307201123-53818660ed49 h1:kaWdlw4YogwkDl8CG+/VxhXkrL9uz3n1D9QBC2pEGLE=
 github.com/mitchellh/mapstructure v0.0.0-20170307201123-53818660ed49/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
 github.com/mitchellh/reflectwalk v0.0.0-20161003174516-92573fe8d000 h1:ajR9C+BMu/Q7NN8pmQQAchGkMwlLivNVWFC06dH+K/4=
