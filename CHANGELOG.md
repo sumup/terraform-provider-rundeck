@@ -1,4 +1,9 @@
-## 0.1.1 (Unreleased)
+## 0.1.1 
+
+* Fix rundeck golang api compatibility
+* Update to go modules
+* Update release procedure
+
 ## 0.1.0 (June 21, 2017)
 
 NOTES:
