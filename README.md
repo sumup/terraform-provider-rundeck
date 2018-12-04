@@ -31,17 +31,17 @@ Requirements
 Building The Provider
 ---------------------
 
-Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-rundeck`
+Clone repository to: `$GOPATH/src/github.com/sumup/terraform-provider-rundeck`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
-$ git clone git@github.com:terraform-providers/terraform-provider-rundeck
+$ mkdir -p $GOPATH/src/github.com/sumup; cd $GOPATH/src/github.com/terraform-providers
+$ git clone git@github.com:sumup/terraform-provider-rundeck
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-rundeck
+$ cd $GOPATH/src/github.com/sumup/terraform-provider-rundeck
 $ make build
 ```
 
