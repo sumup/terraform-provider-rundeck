@@ -1,0 +1,4 @@
+root = true
+
+[GNUmakefile]
+indent_style = tab

@@ -59,5 +59,10 @@ ifeq (,$(wildcard $(GOPATH)/src/$(WEBSITE_REPO)))
 endif
 	@$(MAKE) -C $(GOPATH)/src/$(WEBSITE_REPO) website-provider-test PROVIDER_PATH=$(shell pwd) PROVIDER_NAME=$(PKG_NAME)
 
-.PHONY: build test testacc vet fmt fmtcheck errcheck vendor-status test-compile website website-test
+release:
+	go get github.com/mitchellh/gox
+	gox -osarch="linux/amd64 darwin/amd64"
+
+
+.PHONY: build test testacc vet fmt fmtcheck errcheck vendor-status test-compile website website-test release
 
