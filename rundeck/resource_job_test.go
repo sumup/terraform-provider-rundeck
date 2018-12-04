@@ -28,7 +28,10 @@ func TestAccJob_basic(t *testing.T) {
 						if expected := "Prints Hello World"; job.CommandSequence.Commands[0].Description != expected {
 							return fmt.Errorf("failed to set command description; expected %v, got %v", expected, job.CommandSequence.Commands[0].Description)
 						}
-						if expected := true; job.NodesSelectedByDefault != expected {
+
+						expected := &rundeck.Boolean{Value: true}
+
+						if job.NodesSelectedByDefault.Value != expected.Value {
 							return fmt.Errorf("failed to set node selected by default; expected %v, got %v", expected, job.NodesSelectedByDefault)
 						}
 						return nil

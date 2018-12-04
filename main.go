@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/hashicorp/terraform/plugin"
-	"github.com/terraform-providers/terraform-provider-rundeck/rundeck"
+	"github.com/sumup/terraform-provider-rundeck/rundeck"
 )
 
 func main() {
